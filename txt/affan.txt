@@ -1,0 +1,8 @@
+std_view function;
+routing me get lagaege std_view call karwange;
+ab ek table bna ha new file me view ke folder me;
+route::get('/std/view' , [form::class, 'file ka name']);
+compact ke keyword use hoga compact means jitni bhi array hongge lagee dega;
+tbody ke andr foreach chla denge tr ke neeche close information sari value ke andr ajegi;
+td me value ko call karenge arrow operator laga ke like this {{$value->$id}};
+contorol me save ke baad return redirect keyword lagega file ka name jo show karani ha;

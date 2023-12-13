@@ -1,0 +1,4 @@
+ek coloumn delte ka or td me anchor tag lgake  link denge or id pass kren ge;
+phr controller me jake function bnaege std_dlt ke name se prameters me $id lagenge;
+ek varilbe bnage  ussme model ka name or colon lga ke find or bractket me $id like this  $find =form::find($id)->dlete();
+or routing kren ge or issme bhi id pass hogi;

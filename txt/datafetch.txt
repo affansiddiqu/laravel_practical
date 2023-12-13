@@ -1,0 +1,6 @@
+sbse phle controller me jake function bnanege phr models ke name me all lagaegen like this $data = form2::all();
+phr compact ka keyword laga ke ek varible me data store krwange round bracket me upr jo varible ha usska name denge like this $dataa =compact('data');
+phr return view file ka table wli or bracket me upr wla data with ke sth likre this return view('view')->with($data);
+phr routing hogi route::get('/view' , 'view')->name('veiw');
+phr table ki file me foreach ka loop chlnge or tr me $value->id ke sth pass karenge like this {{$value->id}};
+
